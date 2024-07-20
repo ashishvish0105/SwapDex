@@ -1,0 +1,87 @@
+ body {
+     font-family: "Oswald", sans-serif;
+     font-optical-sizing: auto;
+     background: rgb(251, 218, 234);
+     background: linear-gradient(115deg, rgba(251, 218, 234, 1) 38%, rgba(216, 230, 253, 1) 100%);
+ }
+ 
+ img {
+     height: 100%;
+     width: 100%;
+ }
+ 
+ .exchange-box {
+     padding: 30px;
+     background-color: white;
+     border-radius: 10px;
+     gap: 30px;
+ }
+ 
+ .exchange-text {
+     display: block;
+     font-size: 16px;
+     font-weight: 700;
+     margin-bottom: 15px;
+     text-transform: capitalize;
+ }
+ 
+ .icon-box {
+     position: relative;
+     display: inline-block;
+ }
+ 
+ .icon-box .icon {
+     --image-size: 60px;
+     height: var(--image-size);
+     width: var(--image-size);
+     display: inline-block;
+     border-radius: 50%;
+     overflow: hidden;
+ }
+ 
+ .icon-box .icon.max-small-icon {
+     --image-size: 30px;
+     height: var(--image-size);
+     width: var(--image-size);
+     display: inline-block;
+     position: absolute;
+     bottom: 0;
+     right: 0;
+     background-position: center;
+     transform: translate(8px, 4px);
+ }
+ 
+ .exchange-info .exchange-info-heading {
+     font-size: 24px;
+     color: rgb(116, 116, 116);
+ }
+ 
+ .exchange-info .exchange-info-heading::first-letter {
+     text-transform: capitalize;
+ }
+ 
+ .exchange-info {
+     align-self: center;
+ }
+ 
+ .exchange-info h5 {
+     margin-bottom: 0;
+ }
+ 
+ .exchange-input {
+     display: flex;
+     gap: 30px;
+ }
+ 
+ .exchange-box+.exchange-box {
+     margin-top: 30px;
+ }
+ 
+ .exchange-section {
+     width: 40%;
+     margin: auto;
+     background: rgb(255, 182, 217);
+     background: linear-gradient(315deg, rgba(255, 182, 217, 1) 35%, rgba(173, 204, 255, 1) 100%);
+     padding: 30px;
+     border-radius: 10px;
+ }
