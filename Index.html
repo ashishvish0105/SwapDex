@@ -9,7 +9,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -53,8 +54,12 @@
     </header>
     <main>
         <div class="container">
-            <div class="exchange-section">
-                <div class="exchange-box">
+            <div class="exchange-section gap-top-setion">
+                <div class="section-top">
+                    <h3 class="section_title">Exchange</h3>
+                    <span class="icon-small"><i class="fa-solid fa-gear"></i></span>
+                </div>
+                <div class="theme-card exchange-box">
                     <small class="exchange-text">From</small>
                     <div class="exchange-input exchange-from">
                         <!-- <div class="exchange-info-box"> -->
@@ -74,7 +79,7 @@
                         <!-- </div> -->
                     </div>
                 </div>
-                <div class="exchange-box">
+                <div class="theme-card exchange-box">
                     <small class="exchange-text">To</small>
                     <div class="exchange-input exchange-from">
                         <!-- <div class="exchange-info-box"> -->
@@ -93,6 +98,11 @@
                         </div>
                         <!-- </div> -->
                     </div>
+                </div>
+
+                <div class="button-icon">
+                    <button class="theme-card btn">connect to wallet</button>
+                    <span class="icon"><i class="fa-solid fa-wallet"></i></span>
                 </div>
             </div>
 
