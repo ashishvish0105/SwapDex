@@ -1,0 +1,43 @@
+.swap-coin-section {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.swap-coin-section .section-top {
+    display: block;
+    padding-bottom: 30px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+
+/* .coin-change .coin-item {
+    display: inline-block;
+    text-align: center;
+    width: 22%;
+}
+
+.coin-change .coin-list {
+    padding: 0;
+    background-color: transparent;
+    border-radius: 0;
+    overflow: auto;
+    overflow-x: hidden;
+    max-height: 400px;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.coin-change .coin-list .icon-detail {
+    margin-top: 8px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.coin-change .coin-item+.coin-item {
+    margin: 0;
+} */
