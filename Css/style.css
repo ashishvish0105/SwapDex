@@ -81,7 +81,17 @@
  }
  
  .exchange-info .exchange-info-heading {
-     font-size: 22px;
+     font-size: 20px;
+     color: rgb(116, 116, 116);
+ }
+ 
+ .exchange-info .exchange-info-heading-price {
+     font-size: 18px !important;
+     margin-bottom: 0;
+ }
+ 
+ .exchange-info .exchange-info-heading {
+     font-size: 20px;
      color: rgb(116, 116, 116);
  }
  
@@ -99,7 +109,7 @@
  
  .exchange-input {
      display: flex;
-     gap: 30px;
+     gap: 40px;
  }
  
  .exchange-box+.exchange-box {

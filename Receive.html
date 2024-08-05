@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- font awasome -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css" integrity="sha384-BY+fdrpOd3gfeRvTSMT+VUZmA728cfF9Z2G42xpaRkUGu2i3DyzpTURDo5A6CaLK" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receive</title>
+
+    <link rel="stylesheet" href="./Css/style.css">
+    <link rel="stylesheet" href="./Css/sectionStyle.css">
+
+    <style>
+        .exchange-section {
+            width: 80%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <h2 class="icon">SwapDex</h2>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+                    <ul class="navbar-nav justify-content-cente mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Swap</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">loans</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">liqididy</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Stak</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Stak</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div class="exchange-section gap-top-setion">
+                <div class="section-top">
+                    <div class="section-title">
+                        <h3 class="section_title">Select route</h3>
+                        <p class="section-description">Sorted by estimated output minus gas fees</p>
+                    </div>
+                    <span class="icon-small"><i class="fa-solid fa-gear"></i></span>
+                </div>
+                <div class="theme-card chain-route">
+                    <div class="top-section">
+                        <div class="top-left-section">
+                            <div class="icon-section icon-box">
+                                <!-- <span class="icon-small">   
+                                    <i class="fa-solid fa-stopwatch"></i>
+                                </span> -->
+                                <span class="info-text heading">Est time</span>
+                                <span class="info-text">8:00 Mins</span>
+                            </div>
+                            <div class="icon-section icon-box">
+                                <!-- <span class="icon-small">   
+                                    <i class="fa-solid fa-stopwatch"></i>
+                                </span> -->
+                                <span class="info-text heading">Gas free</span>
+                                <span class="info-text">$0.5600</span>
+                            </div>
+                            <button class="btn-icon">
+                                <i class="fa-solid fa-info"></i>
+                            </button>
+                        </div>
+                        <div class="top-right-section">
+                            <button class="btn btn-text">demo text</button>
+                            <button class="btn btn-text">demo text</button>
+                            <button class="btn btn-text">demo text</button>
+                        </div>
+                    </div>
+
+
+                    <div class="route-exchange-section">
+                        <div class="exchange-box">
+                            <small class="exchange-text">From : Chain Name</small>
+                            <div class="exchange-input exchange-from">
+                                <div class="exchange-icon">
+                                    <div class="icon-box">
+                                        <span class="icon">
+                                            <img src="https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png" alt="">
+                                        </span>
+                                        <span class="icon  max-small-icon">
+                                            <img src="https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/arbitrum.svg" alt="">
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="exchange-info">
+                                    <h5 class="exchange-info-heading">coin name</h5>
+                                    <p class="exchange-info-heading exchange-info-heading-price">$500</p>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="exchange-box">
+                            <small class="exchange-text">To : Chain Name</small>
+                            <div class="exchange-input exchange-from">
+                                <div class="exchange-icon">
+                                    <div class="icon-box">
+                                        <span class="icon">
+                                            <img src="https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png" alt="">
+                                        </span>
+                                        <span class="icon  max-small-icon">
+                                            <img src="https://raw.githubusercontent.com/lifinance/types/main/src/assets/icons/chains/arbitrum.svg" alt="">
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="exchange-info">
+                                    <h5 class="exchange-info-heading">coin name</h5>
+                                    <p class="exchange-info-heading exchange-info-heading-price">$500</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
